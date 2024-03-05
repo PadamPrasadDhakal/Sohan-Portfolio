@@ -1,0 +1,94 @@
+#bdy{
+  background-color: rgb(17, 24, 39);
+}
+#NavContainer a{
+  text-decoration: none;
+  color:aliceblue;
+  font-size: 18px;
+  font-family: 'Courier New';
+  font-weight: bold;
+  padding: 10px;
+  transition: 0.4s;
+}
+#NavContainer{
+  margin-left: 450px;
+  background-color: rgb(55, 57, 56);
+  border: 2px black solid;
+  display: flex;
+  width: 555px;
+  padding: 5px;
+  border-radius: 22px;
+}
+#NavContainer:hover a{
+  color:grey;
+}
+#home,#blog,#aboutme,#gallary,#contactme{
+  margin-left: 15px;
+}
+#NavContainer a:hover{
+  font-size: 24px;
+  transition: 0.4s;
+  color: aliceblue;
+}
+#meroPhoto{
+  height: 270px;
+  width: 270px;
+  border-radius: 142.5px;
+  margin-top: 10px;
+  border: 2px rgb(198, 173, 173) solid;
+  
+}
+#meroPhoto:hover{
+  color: gray;
+}
+#aboutAcademics{
+  border: 3px rgb(55, 57, 56); solid;
+  height: 300px;
+  box-shadow: 8px 8px rgb(55, 57, 56);
+  width: 300px;
+  color: whitesmoke;
+  font-family:'Times New Roman', Times, serif;
+  background-color: rgb(17, 24, 39);
+
+}
+#aboutAcademics h1{
+  font-size: 28px;
+  float: left;
+  width:300px;
+}
+#aboutAcademics p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 20px;
+}
+#MyPhoto{
+  display: flex;
+  flex-flow: row;
+  margin-left:380px;
+  align-items: center;
+  margin-top: 10px;
+  gap: 80px;
+}
+#social a img{
+  height: 30px;
+  width: 30px;
+  border-radius: 36px;
+}
+#social{
+  padding: 7px;
+  width: 110px;
+  display: flex;
+  gap: 5px;
+  margin-top: 8px;
+  margin-left: 460px;
+  border: 3px rgb(55, 57, 56) solid;
+  border-radius: 40px;
+}
+#social a img:hover{
+  height: 40px;
+  width: 40px;
+  transition: 0.8s;
+}
